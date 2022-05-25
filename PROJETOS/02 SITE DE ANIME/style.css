@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.capa_container{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
