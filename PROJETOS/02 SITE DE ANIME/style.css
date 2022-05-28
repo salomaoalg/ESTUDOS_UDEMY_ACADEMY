@@ -14,10 +14,15 @@ header{
     
     
 }
+.titulo_corpo{
+    padding-left: 20mm;
+}
+
 .ajustar{
     display: block;
     padding-top: 20px;
     max-width: 100%;
+    margin-bottom: 20px;
 }
 .margem-corpo{
     margin-left: 100mm;
@@ -30,13 +35,15 @@ header{
 }
 
 .capa_container{
-
-
     padding-top: 10px;
     justify-content: center;
 }
 .espaco_lados{
-    padding: 20px;
+    padding: 0px 100px 100px 100px;
+}
+.pagina_corpo p{
+    padding: 0mm 20mm 0mm 20mm;
+    text-align: justify;
 }
 
 nav{
@@ -59,4 +66,14 @@ nav > a{
 
 nav a:hover{
     background-color: rgb(9, 22, 139);
+}
+
+footer{
+    padding: 12px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
