@@ -1,60 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-header{
- 
-    background-image: linear-gradient(blue,black);
-    padding-bottom: 100px;
-    text-align: center;
-    color: aliceblue;
-    
-    
-}
-.titulo_corpo{
+
+.titulo_corpo {
     padding-left: 20mm;
 }
 
-.ajustar{
+.ajustar {
     display: block;
-    padding-top: 20px;
     max-width: 100%;
     margin-bottom: 20px;
 }
-.margem-corpo{
+
+.ajustar h1{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+picture{
+    display: block;
+}
+
+.margem-corpo {
     margin-left: 100mm;
     margin-right: 100mm;
 }
 
-.alinhar{
+
+.alinhar {
     position: relative;
     transform: translateY(110%);
 }
 
-.capa_container{
-    padding-top: 10px;
-    justify-content: center;
+.espaco_lados {
+    padding: 0px 70px 70px 70px;
+    margin: 0px 100px 20px 100px;
 }
-.espaco_lados{
-    padding: 0px 100px 100px 100px;
-}
-.pagina_corpo p{
+
+.pagina_corpo p {
     padding: 0mm 20mm 0mm 20mm;
     text-align: justify;
 }
 
-nav{
-    box-shadow: 0px, 7px ,7px rgba(0, 0, 0, 0.2);
+nav {
+    box-shadow: 0px, 7px, 7px rgba(0, 0, 0, 0.2);
     background-color: rgb(89, 89, 255);
     text-align: center;
     padding: 10px;
-    
+
 }
 
-nav > a{
+nav>a {
     color: white;
     font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     padding: 15px;
@@ -64,15 +64,15 @@ nav > a{
 
 }
 
-nav a:hover{
+nav a:hover {
     background-color: rgb(9, 22, 139);
 }
 
-footer{
+footer {
     padding: 12px;
 }
 
-footer p{
+footer p {
     text-align: center;
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
