@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     margin-left: 0px;
@@ -10,35 +10,47 @@
     padding-left: 20mm;
 }
 
-.ajustar {
-    display: block;
+
+.imagemcapa{
     max-width: 100%;
+
+}
+
+.ajustar {
     margin-bottom: 20px;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.texto {
+  position: absolute;
+  background-color: rgba(72, 70, 203, 0.457);
+  color: white;
+  font-size: 32px;
+  left: 300px;
+  top: 83px;
 }
 
 .ajustar h1{
-    display: block;
-    position: relative;
     text-align: center;
-}
-picture{
-    display: block;
 }
 
 .margem-corpo {
-    margin-left: 100mm;
-    margin-right: 100mm;
+    margin-left: 5mm;
+    margin-right: 5mm;
 }
-
-
 .alinhar {
-    position: relative;
     transform: translateY(110%);
 }
 
-.espaco_lados {
+.espaco_lados{
     padding: 0px 70px 70px 70px;
-    margin: 0px 100px 20px 100px;
+    margin: 0px 5px 5px 5px;
+    position: relative;
+    
+
+    
 }
 
 .pagina_corpo p {
@@ -51,7 +63,7 @@ nav {
     background-color: rgb(89, 89, 255);
     text-align: center;
     padding: 10px;
-
+    position: relative;
 }
 
 nav>a {
@@ -61,7 +73,6 @@ nav>a {
     font-size: 20px;
     transition-duration: 0.5s;
     text-decoration: none;
-
 }
 
 nav a:hover {
