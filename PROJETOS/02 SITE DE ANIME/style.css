@@ -5,6 +5,10 @@
     margin-right: 0px;
 }
 
+.div_imagem_capa{
+   margin-bottom: -3.8px;
+}
+
 
 .titulo_corpo {
     padding-left: 20mm;
@@ -16,23 +20,9 @@
 
 }
 
-.ajustar {
-    margin-bottom: 20px;
-    position: absolute;
-    display: inline-block;
-    
-}
 
-.texto {
-  position: absolute;
-  background-color: rgba(72, 70, 203, 0.457);
-  color: white;
-  font-size: 32px;
-  left: 300px;
-  top: 83px;
-}
-
-.ajustar h1{
+.ajustar_h1{
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -46,27 +36,29 @@
 
 .espaco_lados{
     padding: 0px 70px 70px 70px;
-    margin: 0px 5px 5px 5px;
-    position: relative;
-    
-
     
 }
 
-.pagina_corpo p {
+.pagina_corpo{
     padding: 0mm 20mm 0mm 20mm;
     text-align: justify;
 }
 
-nav {
-    box-shadow: 0px, 7px, 7px rgba(0, 0, 0, 0.2);
-    background-color: rgb(89, 89, 255);
-    text-align: center;
-    padding: 10px;
-    position: relative;
+.art_onepiece h2, h3{
+    margin-top: 3mm;
+    margin-bottom: 3mm;
 }
 
-nav>a {
+
+nav {
+    background-color: rgb(89, 89, 255);
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-top: -2;
+}
+
+nav > a {
     color: white;
     font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     padding: 15px;
