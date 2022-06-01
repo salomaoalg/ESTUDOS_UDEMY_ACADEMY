@@ -1,12 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
-.div_imagem_capa{
+.div_imagem_capa img{
    margin-bottom: -3.8px;
+   margin: auto;
+   display: block;
 }
 
 
@@ -53,9 +55,11 @@
 nav {
     background-color: rgb(89, 89, 255);
     text-align: center;
-    display: block;
+    max-width: 1897px;
     padding: 10px;
-    margin-top: -2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 nav > a {
