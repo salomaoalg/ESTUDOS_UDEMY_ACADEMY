@@ -11,6 +11,12 @@
    display: block;
 }
 
+.texto_art{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: center;
+}
 
 .titulo_corpo {
     padding-left: 20mm;
@@ -20,6 +26,14 @@
 .imagemcapa{
     max-width: 100%;
 
+}
+
+picture{
+    margin-right: 5mm;
+    border-width: 10px;
+    border-style:outset;
+    border-color: orange;
+    padding: 5px;
 }
 
 
@@ -50,6 +64,13 @@
     margin-top: 3mm;
     margin-bottom: 3mm;
 }
+
+.container_art{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+
 
 
 nav {
