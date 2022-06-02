@@ -1,0 +1,14 @@
+li ol{
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+
+}
+li:hover{
+    background-color: rgb(172, 172, 255);
+    transition: 0.5;
+}
+
+li:hover ol{
+    height: 100px;
+}
