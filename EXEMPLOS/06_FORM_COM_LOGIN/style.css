@@ -1,0 +1,43 @@
+.formlogin{
+    width: 250px;
+    margin: 50px auto 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user, #pass, .btn{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-size: 18px;
+
+    border: none;
+}
+
+#user:focus, #pass:focus{
+    background-color: rgb(252, 255, 225);
+}
+
+.formlogin fieldset{
+    background-color: rgb(248, 169, 66);
+}
+
+.formlogin legend{
+    background-color: rgb(246, 246, 246);
+}
+
+.formlogin fieldset{
+    background-color: rgb(248, 169, 66);
+}
+
+.formlogin label{
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-top: 15px;
+}
+
+#user{
+    margin-bottom: 15px;
+}
