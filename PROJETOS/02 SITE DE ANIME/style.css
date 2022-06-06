@@ -79,6 +79,7 @@ picture{
 
 .container_art h2{
     color: white;
+    font-size: max(10px, 2.5vw); /*Viewport unit*/
 }
 
 .container_art{
